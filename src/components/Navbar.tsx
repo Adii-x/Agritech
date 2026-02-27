@@ -39,27 +39,10 @@ const Navbar = () => {
           <div className="rounded-xl bg-primary p-2">
             <Sprout className="h-6 w-6 text-primary-foreground" />
           </div>
-          <span className="text-lg font-bold gradient-text hidden sm:block">Smart Krishi</span>
+          <span className="text-lg font-bold gradient-text hidden sm:block">KisanSetu</span>
         </Link>
 
-        {/* Desktop Nav */}
-        {!isLanding && (
-          <div className="hidden md:flex items-center gap-1">
-            {links.map(link => (
-              <Link
-                key={link.to}
-                to={link.to}
-                className={`px-3 py-2 rounded-lg text-sm font-medium transition-all ${
-                  isActive(link.to)
-                    ? 'bg-primary/10 text-primary'
-                    : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </div>
-        )}
+
 
         <div className="flex items-center gap-2">
           <LanguageSwitcher />
@@ -91,36 +74,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Nav */}
-      <AnimatePresence>
-        {mobileOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden overflow-hidden"
-          >
-            {!isLanding && (
-              <div className="py-3 space-y-1">
-                {links.map(link => (
-                  <Link
-                    key={link.to}
-                    to={link.to}
-                    onClick={() => setMobileOpen(false)}
-                    className={`block px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                      isActive(link.to)
-                        ? 'bg-primary/10 text-primary'
-                        : 'text-muted-foreground hover:text-foreground'
-                    }`}
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </motion.div>
-        )}
-      </AnimatePresence>
+
     </nav>
   );
 };

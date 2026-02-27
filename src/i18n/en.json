@@ -103,7 +103,7 @@
     "registerSuccess": "Account created successfully!"
   },
   "features": {
-    "title": "Why Smart Krishi?",
+    "title": "Why KisanSetu?",
     "directTrade": "Direct Trade",
     "directTradeDesc": "Sell directly to buyers without middlemen",
     "community": "Community",
@@ -115,7 +115,7 @@
   },
   "landing": {
     "how": {
-      "title": "How Smart Krishi Connect Works",
+      "title": "How KisanSetu Works",
       "subtitle": "Simple. Transparent. Direct.",
       "step1": {
         "title": "Farmers List Produce",
@@ -180,7 +180,7 @@
       "title": "What Our Farmers Say",
       "person1": {
         "name": "Ramesh, Nashik",
-        "quote": "Smart Krishi Connect helped me get better prices without middlemen."
+        "quote": "KisanSetu helped me get better prices without middlemen."
       },
       "person2": {
         "name": "Savita, Pune",
@@ -202,7 +202,7 @@
       "contact": "Contact",
       "follow": "Follow Us",
       "languageHint": "Use the language switcher in the header to change app language.",
-      "copy": "© Smart Krishi Connect. All rights reserved."
+      "copy": "© KisanSetu. All rights reserved."
     }
   },
   "dashboard": {

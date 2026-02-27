@@ -40,7 +40,7 @@ const HeroSection = () => {
           >
             <div className="inline-flex items-center gap-2 glass-card px-4 py-2 mb-6">
               <Sprout className="h-4 w-4 text-primary" />
-              <span className="text-sm font-medium text-primary">Smart Krishi Connect</span>
+              <span className="text-sm font-medium text-primary">KisanSetu</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 gradient-text">
               {t('hero.headline')}
@@ -81,7 +81,7 @@ const HeroSection = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src={heroImage}
-                alt="Smart Krishi - Digital Agriculture"
+                alt="KisanSetu - Digital Agriculture"
                 className="w-full h-auto object-cover float-animation"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
@@ -219,7 +219,7 @@ const HeroSection = () => {
           >
             <img
               src={heroImage}
-              alt="Smart Krishi agriculture illustration"
+              alt="KisanSetu agriculture illustration"
               className="w-full h-full object-cover mix-blend-multiply"
             />
           </motion.div>
@@ -355,7 +355,7 @@ const HeroSection = () => {
       <footer className="glass-navbar mt-0">
         <div className="container mx-auto px-4 py-6 grid md:grid-cols-4 gap-6 text-xs text-muted-foreground">
           <div>
-            <p className="font-semibold mb-2 text-foreground">Smart Krishi Connect</p>
+            <p className="font-semibold mb-2 text-foreground">KisanSetu</p>
             <p>{t('landing.footer.tagline')}</p>
           </div>
           <div>
