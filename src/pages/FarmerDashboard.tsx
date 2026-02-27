@@ -116,7 +116,7 @@ const FarmerDashboard = () => {
           </div>
         </div>
 
-        {/* Recent Orders & Revenue side by side */}
+        {/* Recent Orders & Analytics */}
         <div className="grid lg:grid-cols-2 gap-6">
           {/* Recent Orders */}
           <div className="glass-card p-6">
@@ -137,15 +137,27 @@ const FarmerDashboard = () => {
             </div>
           </div>
 
-          {/* Revenue Chart */}
+          {/* Track Your Growth Monthly (farmer-only analytics preview) */}
           <div className="glass-card p-6">
-            <h2 className="text-lg font-semibold text-foreground mb-4">{t('analytics.revenue')}</h2>
+            <h2 className="text-lg font-semibold text-foreground mb-2">
+              {t('landing.analyticsPreview.title')}
+            </h2>
+            <p className="text-xs text-muted-foreground mb-4">
+              {t('analytics.subtitle')}
+            </p>
             <ResponsiveContainer width="100%" height={200}>
               <BarChart data={monthlyData}>
                 <CartesianGrid strokeDasharray="3 3" stroke="hsl(120, 15%, 85%)" />
                 <XAxis dataKey="month" stroke="hsl(120, 10%, 40%)" fontSize={12} />
                 <YAxis stroke="hsl(120, 10%, 40%)" fontSize={12} />
-                <Tooltip contentStyle={{ background: 'rgba(245, 247, 242, 0.95)', border: '1px solid rgba(255,255,255,0.3)', borderRadius: '12px', backdropFilter: 'blur(10px)' }} />
+                <Tooltip
+                  contentStyle={{
+                    background: 'rgba(245, 247, 242, 0.95)',
+                    border: '1px solid rgba(255,255,255,0.3)',
+                    borderRadius: '12px',
+                    backdropFilter: 'blur(10px)',
+                  }}
+                />
                 <Bar dataKey="sales" fill="hsl(122, 39%, 33%)" radius={[8, 8, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>

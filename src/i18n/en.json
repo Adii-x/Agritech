@@ -113,6 +113,98 @@
     "multilingual": "Multilingual",
     "multilingualDesc": "Use the app in English, Hindi, or Marathi"
   },
+  "landing": {
+    "how": {
+      "title": "How Smart Krishi Connect Works",
+      "subtitle": "Simple. Transparent. Direct.",
+      "step1": {
+        "title": "Farmers List Produce",
+        "desc": "Farmers upload crops with price, quantity and availability."
+      },
+      "step2": {
+        "title": "Buyers Place Orders",
+        "desc": "Restaurants, retailers and consumers order directly."
+      },
+      "step3": {
+        "title": "Track & Receive",
+        "desc": "Track delivery status from dispatch to doorstep."
+      }
+    },
+    "why": {
+      "title": "Why Farmers & Buyers Trust Us",
+      "card1": {
+        "title": "Transparent Pricing",
+        "desc": "No hidden commissions or middlemen."
+      },
+      "card2": {
+        "title": "Better Profits for Farmers",
+        "desc": "Direct selling increases earnings."
+      },
+      "card3": {
+        "title": "Fresh & Verified Produce",
+        "desc": "Quality‑checked listings."
+      },
+      "card4": {
+        "title": "Local Language Support",
+        "desc": "Available in English, Hindi, and Marathi."
+      }
+    },
+    "split": {
+      "title": "Everything You Need in One Platform",
+      "marketplace": "Marketplace",
+      "analytics": "Monthly analytics",
+      "community": "Community discussions",
+      "voice": "Voice assistance",
+      "checkout": "Secure checkout",
+      "delivery": "Delivery tracking"
+    },
+    "market": {
+      "title": "Today's Featured Produce",
+      "tomato": "Tomato",
+      "wheat": "Wheat",
+      "onion": "Onion",
+      "rice": "Rice",
+      "inStock": "In stock",
+      "limited": "Limited stock"
+    },
+    "communityPreview": {
+      "title": "Farmer Community Highlights",
+      "post1": "Best fertilizer for wheat?",
+      "post2": "Market price update – Nashik",
+      "post3": "New government scheme announced"
+    },
+    "analyticsPreview": {
+      "title": "Track Your Growth Monthly"
+    },
+    "testimonials": {
+      "title": "What Our Farmers Say",
+      "person1": {
+        "name": "Ramesh, Nashik",
+        "quote": "Smart Krishi Connect helped me get better prices without middlemen."
+      },
+      "person2": {
+        "name": "Savita, Pune",
+        "quote": "Now I can track my monthly sales and plan my crops better."
+      },
+      "person3": {
+        "name": "Imran, Nagpur",
+        "quote": "Easy to use in my own language and buyers reach me directly."
+      }
+    },
+    "finalCta": {
+      "title": "Ready to Sell Smarter?",
+      "farmer": "Join as Farmer",
+      "buyer": "Start Buying"
+    },
+    "footer": {
+      "tagline": "Building a direct, transparent bridge between farms and buyers.",
+      "quickLinks": "Quick Links",
+      "contact": "Contact",
+      "follow": "Follow Us",
+      "languageHint": "Use the language switcher in the header to change app language.",
+      "copy": "© Smart Krishi Connect. All rights reserved."
+    }
+  },
   "dashboard": {
     "title": "Farmer Dashboard",
     "subtitle": "Manage your products, orders, and revenue",
